@@ -1,0 +1,9 @@
+@media screen and (max-width: 764px) {
+    .productInner {
+        flex-direction: column;
+    }
+
+    .productContent+.productForm {
+        margin: 32px auto 0;
+    }
+}

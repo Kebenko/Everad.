@@ -1,0 +1,56 @@
+@media screen and (max-width: 991px) {
+    .block_main {
+        background: 0;
+    }
+
+    .header {
+        flex-direction: column;
+    }
+
+    .headerLogoInner {
+        justify-content: flex-start;
+    }
+
+    .headerFeatures {
+        padding-left: 0;
+        padding-top: 45px;
+        flex-direction: column;
+    }
+
+    .headerFeature {
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    .headerFeature+.headerFeature {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+
+    .productDummy {
+        display: none;
+    }
+
+    .productInner {
+        padding-left: 0;
+    }
+
+    .productFormBadgeInner {
+        background: #fff;
+    }
+
+    .sicknessReasons {
+        flex-direction: column;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .sicknessReason {
+        margin: 16px 0;
+
+    }
+
+    .statisticInner {
+        padding: 0 20px 20px;
+    }
+}
